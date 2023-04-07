@@ -1,0 +1,49 @@
+.repos-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.repos-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(25px);
+  padding: 20px;
+  color: white;
+}
+.repos-link {
+  text-decoration: none;
+  color: white;
+  &:hover {
+    color: gray;
+  }
+}
+.repos-wrapper {
+  margin: 20px;
+}
+.repos-name {
+  font-size: 40px;
+
+  a {
+    text-decoration: none;
+    font-weight: bolder;
+
+    background: linear-gradient(
+      180deg,
+      rgba(32, 106, 255, 1) 0%,
+      rgba(195, 36, 255, 1) 100%
+    );
+    background-clip: text;
+    color: rgba(0, 0, 0, 0.2);
+  }
+}
+
+.repos-info-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.repos-info {
+  text-align: left;
+  color: #272727;
+}
